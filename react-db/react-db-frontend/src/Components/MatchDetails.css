@@ -1,0 +1,16 @@
+/* Add basic table styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures that borders between cells are merged */
+  }
+  
+  th, td {
+    border: 1px solid black; /* Adds a black border around each cell */
+    padding: 8px; /* Adds space inside cells */
+    text-align: left; /* Aligns text to the left */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light background for the header */
+  }
+  
